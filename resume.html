@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Final Project</title>
+    <link rel="stylesheet" href="style.css">
+
+      <script>
+      function showHide(id) {
+        //console.log(id)
+        const div = document.getElementById(id);
+        console.log(div.style.display);
+        if (div.style.display === "none") {
+
+          div.style.display = "block";
+        } else {
+
+          div.style.display = "none";
+        }
+      }
+    </script>
+
+  </head>
+  <body>
+     <div class="container">
+
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <a class="navbar-brand" href="#">TBarry</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav mr-auto">
+             <li class="nav-item active">
+               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="resume.html">Resume</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="projects.html">Projects</a>
+             </li> </ul>
+
+         </div>
+        </nav>
+        
+        <h1>Resume</h1>
+
+         <h3 onclick="showHide('desc1')">Experience</h3>
+          <div id="desc1" style="display:none;">
+            <ul>
+              <h4>Security Officer Winfield – Jannie A. Clark Shelter</h4>
+              <li>Patrolled the facility and served as a general security presence and visible deterrent to crime and rules infractions. Reported all incidents and medical emergencies…</li>
+            </ul>
+            <ul>
+              <h4>Madison Security Group Inc</h4>
+              <li>Responsible for providing security services for residents and visitors, </li>
+              <li>Respond to calls, secure safety of the facility, logged daily activity into log book hourly.</li>
+            </ul>
+            <ul>
+              <h4>University International College- UNIC, Republic of Guinea</h4>
+              <h5>Professor of Public Accounting & Finances </h5>
+              <li>Responsible for developing engaging lesson plans based on the approved curriculum.</li>
+              <li>Responsible for creating classroom materials that were distributed to all students throughout the course of the year.</li>
+            </ul>
+          </div>
+        <h3 onclick="showHide('desc2')">Education</h3>
+          <div id="desc2" style="display:none;">
+            <h4>University International College -UNIC- Republic of Guinea</h4>
+            <h5>Bachelor's degree in Finances. </h5>
+            <ul>
+              <h4>Certificates:</h4>
+              <li>Licensed Security Guard New York State valid.</li>
+              <li>Eight and Sixteen Hours Certificates  </li>
+              <li>Indoor Place of Assembly Safety Personnel(F03)</li>
+              <li>Fire Guard for Shelter (Citywide)(F02)</li>
+              <li>Full clean TLC Driver License</li>
+            </ul>
+          </div>
+        <h3 onclick="showHide('desc3')">Skills</h3>
+          <div id="desc3" style="display:none;">
+             <h4>Highlights</h4>
+             <ul>
+              <li>Fundamental computer skill – Gmail – Word – Windows – Excel</li>
+              <li>High level of integrity</li>
+              <li>CCTV surveillance</li>
+              <li>HTML5</li>
+             </ul>
+          </div>
+
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

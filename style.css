@@ -1,0 +1,30 @@
+.myimg{
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  border: 1px solid #000;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+.img-circle{
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 60%; 
+}
+
+
+h1{
+	text-align: center;
+}
+
+h3{
+	cursor: pointer;
+}
+
+.projects{
+	width: 75%;
+	margin: 3% auto;
+	border: 1px #ccc solid;
+	padding: 2%;
+}
