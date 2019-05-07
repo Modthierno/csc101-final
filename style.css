@@ -1,18 +1,3 @@
-.myimg{
-  width: 50%;
-  margin: 0 auto;
-  text-align: left;
-  border: 1px solid #000;
-  padding: 2%;
-  margin-bottom: 2%;
-}
-
-.img-circle{
-  width: 30%;
-  margin: 0 auto;
-  border-radius: 60%; 
-}
-
 
 h1{
 	text-align: center;
@@ -27,4 +12,26 @@ h3{
 	margin: 3% auto;
 	border: 1px #ccc solid;
 	padding: 2%;
+}
+
+.outer {
+  border: 1px solid gray;
+  position:relative;
+  /*height: 150px;*/
+  margin-bottom: 2%;
+  padding: 20px;
+}
+.outer-img {
+  border-radius: 100%;
+  padding: 5px;
+  box-shadow:0px 0px 10px grey; 
+  /*position:absolute;*/
+  z-index: 1;
+  left: 10px;
+}
+.outer-div {
+  border-top: 1px solid gray;
+  position: relative;
+  z-index: -1;
+  top: 50px;
 }
